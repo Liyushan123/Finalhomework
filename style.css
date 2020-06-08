@@ -1,0 +1,305 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizzing: border-box;
+
+  */border: solid 1px red;
+}
+body {
+  background-image: url("https://liyushan123.github.io/animation/1.jpg ");
+}
+
+.santa {
+  position: relative;
+  width: 500px;
+  height: 1000px;
+}
+.title {
+  color: #fff;
+  position: absolute;
+  font-size: 55px;
+  left: 580px;
+  top: 30px;
+  font-family: "Anton", sans-serif;
+  font-family: "Balsamiq Sans", cursive;
+  z-index: 2;
+}
+.santa {
+  position: relative;
+  width: 500px;
+  height: 1000px;
+}
+.door {
+  background-image: url("https://liyushan123.github.io/animation/2.jpg ");
+  position: absolute;
+  left: 0px;
+  top: 00px;
+  width: 1700px;
+  height: 350px;
+  z-index: 1;
+}
+.butt {
+  background: #ffdcc9;
+  position: absolute;
+  left: 120px;
+  top: 50px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-animation-name: Shake;
+          animation-name: Shake;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+}
+.butt1 {
+  background: #ffdcc9;
+  position: absolute;
+  left: 430px;
+  top: 180px;
+  width: 220px;
+  height: 200px;
+  border-radius: 100px 100px 100px 100px;
+  box-shadow: inset 0px -8px 0px rgba(0, 0, 0, 0.03);
+  z-index: 2;
+}
+.butt2 {
+  background: #ffdcc9;
+  position: absolute;
+  left: 600px;
+  top: 180px;
+  width: 220px;
+  height: 200px;
+  border-radius: 100px 100px 100px 100px;
+  box-shadow: inset 0px -8px 0px rgba(0, 0, 0, 0.03);
+  z-index: 2;
+}
+@-webkit-keyframes Shake {
+  0% {
+    left: 140px;
+    -webkit-transform: rotate(1deg);
+            transform: rotate(1deg);
+  }
+  20% {
+    left: 150px;
+  }
+  40% {
+    left: 120px;
+    -webkit-transform: rotate(-1deg);
+            transform: rotate(-1deg);
+  }
+  60% {
+    left: 145px;
+  }
+
+  100% {
+    left: -2500;
+  }
+}
+@keyframes Shake {
+  0% {
+    left: 140px;
+    -webkit-transform: rotate(1deg);
+            transform: rotate(1deg);
+  }
+  20% {
+    left: 150px;
+  }
+  40% {
+    left: 120px;
+    -webkit-transform: rotate(-1deg);
+            transform: rotate(-1deg);
+  }
+  60% {
+    left: 145px;
+  }
+
+  100% {
+    left: -2500;
+  }
+}
+.tolit {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.c1 {
+  background: #e8eced;
+  position: absolute;
+  left: 650px;
+  top: 530px;
+  width: 200px;
+  height: 300px;
+  border-radius: 100px 100px 100px 100px;
+  box-shadow: inset 0px -8px 0px rgba(0, 0, 0, 0.03);
+  z-index: -2;
+}
+.c2 {
+  background: #daecf5;
+  position: absolute;
+  left: 690px;
+  top: 550px;
+  width: 120px;
+  height: 250px;
+  border-radius: 100px 100px 100px 100px;
+  box-shadow: inset 0px -10px 0px rgba(0, 0, 0, 0.03);
+  z-index: -2;
+}
+.c3 {
+  background: #faf7f7;
+  position: absolute;
+  left: 650px;
+  top: 470px;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px 100px 0px 0px;
+  box-shadow: inset 0px 10px 0px rgba(0, 0, 0, 0.03);
+  z-index: -3;
+}
+
+.popo1 {
+  background: #524739;
+  position: absolute;
+  left: 750px;
+  top: 260px;
+  width: 100px;
+  height: 32px;
+  border-radius: 100px 100px 100px 100px;
+  box-shadow: inset 0px -8px 0px rgba(0, 0, 0, 0.1);
+  -webkit-animation-name: pa1;
+          animation-name: pa1;
+  -webkit-animation-duration: 3.5s;
+          animation-duration: 3.5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+  z-index: -1;
+}
+@-webkit-keyframes pa1 {
+  0% {
+    top: 230px;
+    left: 760px;
+    -webkit-transform: rotate(1deg);
+            transform: rotate(1deg);
+  }
+  100% {
+    top: 730px;
+    left: 700px;
+    -webkit-transform: rotate(-1deg);
+            transform: rotate(-1deg);
+  }
+}
+@keyframes pa1 {
+  0% {
+    top: 230px;
+    left: 760px;
+    -webkit-transform: rotate(1deg);
+            transform: rotate(1deg);
+  }
+  100% {
+    top: 730px;
+    left: 700px;
+    -webkit-transform: rotate(-1deg);
+            transform: rotate(-1deg);
+  }
+}
+.popo2 {
+  background: #524739;
+  position: absolute;
+  left: 760px;
+  top: 210px;
+  width: 80px;
+  height: 32px;
+  border-radius: 100px 100px 100px 100px;
+  box-shadow: inset 0px -8px 0px rgba(0, 0, 0, 0.1);
+  -webkit-animation-name: pa2;
+          animation-name: pa2;
+  -webkit-animation-duration: 3.5s;
+          animation-duration: 3.5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+  overflow: hidden;
+  z-index: -1;
+}
+@-webkit-keyframes pa2 {
+  0% {
+    top: 200px;
+    left: 760px;
+    -webkit-transform: rotate(1deg);
+            transform: rotate(1deg);
+  }
+  100% {
+    top: 700px;
+    left: 710px;
+    -webkit-transform: rotate(-1deg);
+            transform: rotate(-1deg);
+  }
+}
+@keyframes pa2 {
+  0% {
+    top: 200px;
+    left: 760px;
+    -webkit-transform: rotate(1deg);
+            transform: rotate(1deg);
+  }
+  100% {
+    top: 700px;
+    left: 710px;
+    -webkit-transform: rotate(-1deg);
+            transform: rotate(-1deg);
+  }
+}
+.popo3 {
+  background: #524739;
+  position: absolute;
+  left: 765px;
+  top: 180px;
+  width: 50px;
+  height: 32px;
+  border-radius: 15% 90% 20% 20% / 15% 90% 50% 50%;
+  box-shadow: inset 0px -8px 0px rgba(0, 0, 0, 0.1);
+  -webkit-animation-name: pa3;
+          animation-name: pa3;
+  -webkit-animation-duration: 3.5s;
+          animation-duration: 3.5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+  z-index: -1;
+}
+@-webkit-keyframes pa3 {
+  0% {
+    top: 170px;
+    left: 765px;
+    -webkit-transform: rotate(1deg);
+            transform: rotate(1deg);
+  }
+  100% {
+    top: 670px;
+    left: 730px;
+    -webkit-transform: rotate(-1deg);
+            transform: rotate(-1deg);
+  }
+}
+@keyframes pa3 {
+  0% {
+    top: 170px;
+    left: 765px;
+    -webkit-transform: rotate(1deg);
+            transform: rotate(1deg);
+  }
+  100% {
+    top: 670px;
+    left: 730px;
+    -webkit-transform: rotate(-1deg);
+            transform: rotate(-1deg);
+  }
+}
